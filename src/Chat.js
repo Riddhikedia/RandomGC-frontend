@@ -32,7 +32,8 @@ function Chat({ socket, username, room }) {
   return (
     <div className="chat-window">
       <div className="chat-header">
-        <p>Live Chat</p>
+     <img src="logo.png" height="40px"/>
+        <p>Random GC</p>
       </div>
       <div className="chat-body">
         <ScrollToBottom className="message-container">

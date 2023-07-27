@@ -3,9 +3,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./Chat";
 
-const backendurl= process.env.REACT_APP_BACKEND_URL;
-
-const socket = io.connect("backendurl");
+const socket = io.connect("https://randomgc-backend.onrender.com");
 
 function App() {
   const [username, setUsername] = useState("");
